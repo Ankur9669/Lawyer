@@ -2,6 +2,7 @@
   text-align: center;
   background-color: black;
   width: 100vw;
+  max-width: 2200px;
   height: 100vh;
 }
 

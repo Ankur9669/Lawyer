@@ -1,0 +1,26 @@
+.main-header-background{
+    width: 100vw;
+    height: 100vh;
+}
+.place-over-img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+}
+.centered-container{
+    padding: 10px 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.heading-text{
+    font-size: 3rem;
+}
