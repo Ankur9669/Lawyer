@@ -1,0 +1,29 @@
+.our-services{
+    width: 100%;
+}
+.our-services-heading{
+    font-size: 44px;
+}
+.our-services-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.our-services-card{
+    min-width: 300px;
+    max-width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    background-color: #282828;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.our-services-card-heading{
+    color: #FFF;
+}
+.our-services-card-text{
+    color:#999;
+}
