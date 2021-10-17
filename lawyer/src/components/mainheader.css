@@ -1,26 +1,80 @@
-.main-header-background{
-    width: 100vw;
-    height: 100vh;
-}
-.place-over-img{
-    position: absolute;
+.lawyer-hero{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    height: 90vh;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 550px;
 }
-.centered-container{
-    padding: 10px 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: 2px solid white;
-    border-radius: 10px;
+.lawyer-hero-section-1{
+    flex: 1;
+    padding-left: 80px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.lawyer-hero-section-1-heading{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    text-align: left;
+}
+.lawyer-hero-section-1-sub-heading{
+    font-size: 18px;
+    text-align: left;
+    color: #c8cddc;
+    margin-bottom: 80px;
+}
+.lawyer-hero-section-1-btn{
+    display: block;
+    border: 1px solid #df9a2a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #323848;
     color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 350px;
 }
-.heading-text{
-    font-size: 3rem;
+.lawyer-hero-section-1-btn:hover{
+    background-color: #df9a2a;
+    color: black;
+    transition: 0.3s;
+    font-weight: 600;
+}
+.lawyer-hero-section-2{
+    flex: 1.4;
+}
+.lawyer-hero-section-3{
+    display: flex;
+    flex: 1;
+}
+.lawyer-hero-section-3-points{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lawyer-hero-section-2-img{
+    width: 100%;
+    height: 100%;
+}
+.point{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.point-img{
+    width: 50px;
+}
+.icon-text-heading{
+    font-size: 14px;
+    color: #c8cddc;
+}
+.icon-text-sub-heading{
+    font-size: 16px;
+    color: white;
+    font-weight: 550;
 }
