@@ -17,15 +17,18 @@ function Navbar()
     return (
         <nav className = "navbar">
             <div className = "navbar-icon">
-                <img src = "/lawIcon.svg" className = "law-icon"></img>
-                <h1 className = "navbar-text">IAMLAWYER</h1>
+                <img src = "https://demo2.joomshaper.com/2019/themis/templates/themis/images/presets/preset1/logo.svg" className = "law-icon"></img>
+                {/* <h1 className = "navbar-text">IAMLAWYER</h1> */}
             </div>
             {
                 width > 768 ? 
                 <ul className = "menu-items">
-                    <li className = "items">Home</li>
-                    <li className = "items">About</li>
-                    <li className = "items">Contact Us</li>  
+                    <li className = "items-active">Home</li>
+                    <li className = "items">Case Studies</li>
+                    <li className = "items">Blog</li>
+                    <li className = "items">Pages</li>
+                    <li className = "items">Addons</li>
+                    <li className = "items">Appointment</li>  
                 </ul> 
                 : 
                 <div>

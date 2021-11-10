@@ -3,6 +3,8 @@ import Particles from "react-particles-js";
 import {useState, useEffect} from "react";
 import "./mainheader.css";
 import { AiOutlineClockCircle } from 'react-icons/ai';
+import { IoMdCall } from "react-icons/io";
+import {AiOutlineMail} from 'react-icons/ai';
 function MainHeader() 
 {
     return (
@@ -28,7 +30,7 @@ function MainHeader()
                     </div>
                     <div className = "point">
                         <div className = "icon-container">
-                            <AiOutlineClockCircle style = {{color: "#df9a2a", fontSize: "40px", marginRight: "5px"}}/>
+                            <IoMdCall style = {{color: "#df9a2a", fontSize: "40px", marginRight: "5px"}}/>
                         </div>
                         <div className = "icon-text-container">
                             <p className = "icon-text-heading">Opening hours</p>
@@ -37,7 +39,7 @@ function MainHeader()
                     </div>
                     <div className = "point">
                         <div className = "icon-container">
-                            <AiOutlineClockCircle style = {{color: "#df9a2a", fontSize: "40px", marginRight: "5px"}}/>
+                            <AiOutlineMail style = {{color: "#df9a2a", fontSize: "40px", marginRight: "5px"}}/>
                         </div>
                         <div className = "icon-text-container">
                             <p className = "icon-text-heading">Opening hours</p>

@@ -17,11 +17,11 @@ function Reviews() {
             return Math.abs(
             value % 4 === 0 ? 0 : (value % 4) + 3
             ) === index
-            ? "#2d3092"
+            ? "#df9a2a"
             : "rgba(45, 48, 146, 0.3)";
         }
     
-        return value % 4 === index ? "#2d3092" : "rgba(45, 48, 146, 0.3)";
+        return value % 4 === index ? "#df9a2a" : "rgba(45, 48, 146, 0.3)";
         };
     
     //This would style the dots
@@ -60,7 +60,7 @@ function Reviews() {
                             {
                             resolve: autoplayPlugin,
                             options: {
-                            interval: 3000
+                            interval: 30000
                             }
                         },
                         ]}
@@ -113,7 +113,7 @@ function Reviews() {
                             </div>
                             <div className = "reviewer-review">Eros nulla mollis nec tortor. Eu class ante accumsan habitant morbi neque hac purus magnis varius pulvinar hac pede magnis.</div>
                             <div className = "reviewer-info">
-                                <img src = "/avatar.svg" alt = "asd" className = "reviewer-image"></img>
+                                <img src = "/avatar1.svg" alt = "asd" className = "reviewer-image"></img>
                                 <div className = "reviewer-name-lvl">
                                     <span className = "reviewer-name">Tina</span> 
                                     <br/>

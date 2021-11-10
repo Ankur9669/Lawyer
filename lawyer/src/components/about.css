@@ -2,8 +2,10 @@
     display: flex;
     margin-left: 5px;
     margin-right: 5px;
-    padding: 10px;
-    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eaedf0;
+    color: black;
 }
 
 .about-text-section{
@@ -40,7 +42,7 @@
     cursor: pointer;
     border: 2px solid #df9a2a;
     background-color: inherit;
-    color: white;
+    color: black;
 }
 .about-section-text-btn:hover{
     background-color: #df9a2a;

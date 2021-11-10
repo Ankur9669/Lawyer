@@ -1,5 +1,7 @@
 .our-services{
     width: 100%;
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
 .our-services-heading{
     font-size: 44px;
@@ -8,8 +10,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 20px;
-    margin-right: 20px;
+    max-width: 1380px;
+    margin: auto;
 }
 .our-services-card{
     position: relative;
